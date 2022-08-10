@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.continer {
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+
+
+/* header qismi boshi */
+header {
+    border-top: 5px solid #FF7500;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+
+.nashr_item a {
+    color: #000;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 15px;
+    justify-content: space-between;    
+}
+
+
+
+.nashr_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nashr_item {
+    margin-right: 32px;
+}
+
+.nashr_teg {
+    color: #ffff;
+    font-weight: 700; 
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    padding: 12px 24px;
+    background-color: #FF7500;
+    border-radius: 4px;
+}
+/* header qismi tugadi */
+
+/* section_1 qismi boshi */
+
+.section_1-heading {
+    height: 488px;
+    background: #252420;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+}
+
+.header_div {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.section_header {
+    
+}
+
+.section_1-line {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color:  #FF7500;
+}
+
+.section_1-nav {
+    width: 339px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 540;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.section_1-text {
+    width: 387px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+/* section_1 tugadi */
+
+/* section_2 boshi */
+.section_2-heading {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 209px;
+
+}
+
+.section_2-card {
+    
+}
+
+.section_2-nav {
+    width: 435px;
+    height: 172px;
+    left: 170px;
+    top: 821px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.section_2-nav-1 {
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section_2-inner {
+    padding: 0px;
+    display: flex;
+    margin-top: 72px;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section_2-item {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.section_2-header {
+    width: 214px;
+    height: 29px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #000000; 
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section_2-text {
+    width: 314px;
+    height: 72px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+/* section_2 tugadi */
+
+
+/* section_3 boshi */
+.section_3-heading {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 245px;
+    width: 1100px;
+    height: 419px;
+    left: 170px;
+    top: 1640px;
+    background: #252420;
+    border-radius: 12px;
+}
+
+.header_div {
+    display: flex;
+}
+
+.section_3-book {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+}
+
+.section_3-header {
+    width: 373px;
+    height: 96px;
+    left: 234px;
+    top: 1704px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.section_3-text {
+    width: 440px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+/* section_3 tugadi */
+
+
+/* footer qismi boshi */
+footer {
+    height: 507px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+    left: 0px;
+    top: 2219px;
+    background: #F8F8F8;
+}
+
+.footer_header {
+    width: 1100px;
+    display: flex;
+    padding-top: 67px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.footer_img {
+    display: flex;
+    list-style: none;
+}
+
+.footer_image {
+    margin-left: 16px;
+}
+
+.footer_line {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 51px;
+    display: block;
+    width: 1100px;
+    height: 2px;
+    left: 170px;
+    top: 2375px;
+    background: rgba(37, 36, 32, 0.5);
+}
+
+.footer_menu {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_inner {
+    list-style: none;
+    padding: 0;
+    margin-top: 64px;
+}
+
+.footer_item {
+    margin-top: 16px;
+}
+/* footer qismi tugadi */
